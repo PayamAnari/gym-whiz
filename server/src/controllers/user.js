@@ -236,3 +236,27 @@ export const updateUserProfile = async (req, res) => {
     res.status(500).json({ success: false, msg: 'Unable to update user' });
   }
 };
+
+export const deleteUserProfile = async (req, res) => {
+  try {
+    const userId = req.params.id;
+    const user = await User.findById(userId);
+
+    if (!user) {
+      return res.status(404).json({ success: false, msg: 'User not found' });
+    }
+
+    user.profilePhoto = '';
+    const updatedUser = await user.save();
+
+    res.status(200).json({ success: true, user: updatedUser });
+  } catch (error) {
+    logError(error);
+
+    if (error instanceof multer.MulterError) {
+      res.status(400).json({ success: false, msg: 'File upload error' });
+    } else {
+      res.status(500).json({ success: false, msg: 'Unable to update user' });
+    }
+  }
+};
