@@ -182,3 +182,57 @@ export const favoriteGym = async (req, res) => {
       .json({ success: false, msg: "Unable to update user's favorite gyms" });
   }
 };
+
+cloudinary.config({
+  cloud_name: 'dlllvxoen',
+  api_key: '362369482937335',
+  api_secret: 'G-Aci0RJJiJNr7gDm-47TSunIFc',
+});
+
+export const updateUserProfile = async (req, res) => {
+  try {
+    const userId = req.params.id;
+    const { firstName, lastName, password } = req.body;
+    const user = await User.findById(userId);
+
+    if (!user) {
+      return res.status(404).json({ success: false, msg: 'User not found' });
+    }
+
+    if (firstName) user.firstName = firstName;
+    if (lastName) user.lastName = lastName;
+
+    if (password) {
+      const salt = await bcrypt.genSalt(10);
+      const hashedPassword = await bcrypt.hash(password, salt);
+      user.password = hashedPassword;
+    }
+
+    const profilePhoto = req.file;
+
+    if (profilePhoto) {
+      cloudinary.uploader
+        .upload_stream(async (error, result) => {
+          if (error) {
+            logError(error);
+            res.status(400).json({ success: false, msg: 'File upload error' });
+          } else {
+            user.profilePhoto = result.secure_url;
+            const updatedUser = await user.save();
+            const userWithoutPassword = updatedUser.toObject();
+            delete userWithoutPassword.password;
+            res.status(200).json({ success: true, user: userWithoutPassword });
+          }
+        })
+        .end(profilePhoto.buffer);
+    } else {
+      const updatedUser = await user.save();
+      const userWithoutPassword = updatedUser.toObject();
+      delete userWithoutPassword.password;
+      res.status(200).json({ success: true, user: userWithoutPassword });
+    }
+  } catch (error) {
+    logError(error);
+    res.status(500).json({ success: false, msg: 'Unable to update user' });
+  }
+};
