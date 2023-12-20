@@ -107,3 +107,45 @@ export const loginUser = async (req, res) => {
       .json({ success: false, msg: 'Unable to login user, try again later' });
   }
 };
+
+export const updateUser = async (req, res) => {
+  try {
+    const userId = req.params.id;
+    const { firstName, lastName, password, age, weight, height } = req.body;
+
+    // Find the user by ID
+    const user = await User.findById(userId);
+
+    // If user not found, send an error response
+    if (!user) {
+      return res.status(404).json({ success: false, msg: 'User not found' });
+    }
+
+    // Update first name, last name, and additional fields if provided
+    if (firstName) user.firstName = firstName;
+    if (lastName) user.lastName = lastName;
+    if (age) user.age = age;
+    if (weight) user.weight = weight;
+    if (height) user.height = height;
+
+    // Update password if provided
+    if (password) {
+      // Hash the new password
+      const salt = await bcrypt.genSalt(10);
+      const hashedPassword = await bcrypt.hash(password, salt);
+      user.password = hashedPassword;
+    }
+
+    // Save the updated user
+    const updatedUser = await user.save();
+
+    // Remove the password from the response
+    const userWithoutPassword = updatedUser.toObject();
+    delete userWithoutPassword.password;
+
+    res.status(200).json({ success: true, user: userWithoutPassword });
+  } catch (error) {
+    logError(error);
+    res.status(500).json({ success: false, msg: 'Unable to update user' });
+  }
+};
