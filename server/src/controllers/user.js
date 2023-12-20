@@ -71,3 +71,39 @@ export const createUser = async (req, res) => {
       .json({ success: false, msg: 'Unable to create user, try again later' });
   }
 };
+
+export const loginUser = async (req, res) => {
+  try {
+    const { user } = req.body;
+
+    const userData = await User.findOne({ email: user.email });
+
+    if (!userData) {
+      return res.status(404).json({ success: false, msg: 'No user found!' });
+    }
+
+    const isPasswordValid = await bcrypt.compare(
+      user.password,
+      userData.password,
+    );
+
+    if (isPasswordValid) {
+      // Convert the document to a JavaScript object
+      const userObject = userData.toObject();
+      // Remove the password property
+      delete userObject.password;
+      // Now, return the user object without the password
+      return res.status(200).json({ success: true, user: userObject });
+    } else {
+      return res
+        .status(400)
+        .json({ success: false, msg: 'Invalid credentials!' });
+    }
+  } catch (error) {
+    logError(error);
+    return res
+
+      .status(500)
+      .json({ success: false, msg: 'Unable to login user, try again later' });
+  }
+};
