@@ -149,3 +149,36 @@ export const updateUser = async (req, res) => {
     res.status(500).json({ success: false, msg: 'Unable to update user' });
   }
 };
+
+export const deleteUser = async (req, res) => {
+  try {
+    await User.findByIdAndDelete(req.params.id);
+    res.status(200).json({ success: true, msg: 'User deleted successfully' });
+  } catch (error) {
+    logError(error);
+    res.status(500).json({ success: false, msg: 'Unable to delete user' });
+  }
+};
+
+export const favoriteGym = async (req, res) => {
+  const { gymId } = req.body;
+  const userId = req.params.userId;
+
+  try {
+    const updatedUser = await User.findById(userId);
+
+    if (updatedUser.favoriteGyms.includes(gymId)) {
+      await User.updateOne({ _id: userId }, { $pull: { favoriteGyms: gymId } });
+    } else {
+      await User.updateOne({ _id: userId }, { $push: { favoriteGyms: gymId } });
+    }
+    const lastUpdatedUser = await User.findById(userId);
+
+    res.status(200).json({ success: true, user: lastUpdatedUser });
+  } catch (error) {
+    logError(error);
+    res
+      .status(500)
+      .json({ success: false, msg: "Unable to update user's favorite gyms" });
+  }
+};
