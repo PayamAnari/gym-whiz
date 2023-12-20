@@ -16,3 +16,58 @@ export const getUsers = async (req, res) => {
       .json({ success: false, msg: 'Unable to get users, try again later' });
   }
 };
+
+export const createUser = async (req, res) => {
+  try {
+    const { user } = req.body;
+    const { email, firstName, lastName, password } = user;
+
+    const userExists = await User.findOne({ email });
+
+    if (userExists) {
+      return res
+        .status(400)
+        .json({ success: false, message: 'User already exists' });
+    }
+
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(password, salt);
+
+    if (typeof user !== 'object') {
+      res.status(400).json({
+        success: false,
+        msg: `You need to provide a 'user' object. Received: ${JSON.stringify(
+          user,
+        )}`,
+      });
+
+      return;
+    }
+
+    const errorList = validateUser(user);
+
+    if (errorList.length > 0) {
+      res
+        .status(400)
+        .json({ success: false, msg: validationErrorMessage(errorList) });
+    } else {
+      const newUser = await User.create({
+        firstName,
+        lastName,
+        email,
+        password: hashedPassword,
+      });
+
+      const userObject = newUser.toObject();
+      // Remove the password property
+      delete userObject.password;
+      // return the user object without the password
+      res.status(201).json({ success: true, user: userObject });
+    }
+  } catch (error) {
+    logError(error);
+    res
+      .status(500)
+      .json({ success: false, msg: 'Unable to create user, try again later' });
+  }
+};
