@@ -1,6 +1,6 @@
-// Load our .env variables
 import dotenv from "dotenv";
 import express from "express";
+
 dotenv.config();
 
 import app from "./app.js";
@@ -9,7 +9,7 @@ import connectDB from "./db/connectDB.js";
 import testRouter from "./testRouter.js";
 
 // The environment should set the port
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 5000;
 
 if (port == null) {
   // If this fails, make sure you have created a `.env` file in the right place with the PORT set
@@ -36,6 +36,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(
     express.static(new URL("../../client/dist", import.meta.url).pathname)
   );
+
   // Redirect * requests to give the client data
   app.get("*", (req, res) =>
     res.sendFile(
@@ -43,6 +44,7 @@ if (process.env.NODE_ENV === "production") {
     )
   );
 }
+//photo Upload
 
 /****** For cypress we want to provide an endpoint to seed our data ******/
 if (process.env.NODE_ENV !== "production") {
