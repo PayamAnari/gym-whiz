@@ -1,0 +1,258 @@
+.bmi-container {
+  width: 100%;
+  margin-top: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.bmi-container-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bmi-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.bmi-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.bmi-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.bmi-table table {
+  font-family: "Arial";
+  font-weight: 600;
+  border-collapse: separate;
+  background-color: transparent;
+  border-spacing: 2px;
+  width: 70%;
+}
+
+.bmi-table table th,
+.bmi-table table td {
+  color: #f3eded;
+  background-clip: padding-box;
+  background-color: #f3a829;
+  border: none;
+  padding: 18px 15px 15px 40px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.bmi-table table th {
+  color: #eae3e3;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.bmi-table table th:first-child {
+  border-top-left-radius: 20px;
+}
+.bmi-table table th.last {
+  border-top-right-radius: 20px;
+}
+
+.bmi-table tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+.bmi-table tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+.form-bmi-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.bmi-container-detail h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+  color: #edeef2;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.bmi-container-detail h2 {
+  color: #edeef2;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.bmi-result-container {
+  min-height: 6rem;
+}
+.bmi-result {
+  margin-top: 1.8rem;
+  color: #8f97a3;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.bmi-category {
+  color: #8f97a3;
+  font-weight: 600;
+}
+
+.bmi-container-detail p span {
+  color: #f9f4f4;
+}
+
+.form-bmi-detail .bmi-input {
+  width: 190px;
+  height: 45px;
+  margin: auto;
+  padding: 3px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #070708;
+  border: 1px solid gray;
+  text-align: center;
+}
+::placeholder {
+  text-align: center;
+}
+.btn-bmi-detail {
+  width: 200px;
+  height: 52px;
+  margin-right: 0rem;
+  border-radius: 35px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #1db619 !important;
+  color: #fff !important;
+  border: 1px solid transparent;
+}
+.btn-bmi-detail:hover {
+  border-color: #f2eded;
+}
+.error-message {
+  margin-top: 2rem;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1050px) {
+  .bmi-content {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .bmi-container {
+    background-image: linear-gradient(
+      315deg,
+      hsl(60deg 1% 21%) 0%,
+      hsl(60deg 1% 18%) 21%,
+      hsl(60deg 1% 16%) 30%,
+      hsl(60deg 1% 14%) 39%,
+      hsl(60deg 1% 12%) 46%,
+      hsl(60deg 0% 10%) 54%,
+      hsl(60deg 0% 8%) 61%,
+      hsl(60deg 0% 6%) 69%,
+      hsl(60deg 0% 3%) 79%,
+      hsl(0deg 0% 1%) 100%
+    );
+  }
+  .bmi-container-detail {
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    text-align: center;
+  }
+
+  .input-container {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .btn-bmi-detail {
+    width: 120px;
+    height: 40px;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #1db619 !important;
+    color: #fff !important;
+    border: 1px solid transparent;
+  }
+  form.form-bmi-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .btn-bmi-detail {
+    margin-left: 0rem;
+  }
+  .form-bmi-detail .bmi-input {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .bmi-content-container {
+    width: 100%;
+  }
+  .bmi-content {
+    margin-left: 0;
+    align-items: center;
+    width: 100%;
+  }
+  .bmi-table {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .bmi-table table th,
+  .bmi-table table td {
+    padding: 14px 18px 13px 30px;
+    font-size: 13px;
+  }
+  .bmi-container-detail h2 {
+    font-size: 1.6rem;
+    margin-bottom: -1.2rem;
+    margin-top: 1.2rem;
+  }
+  .bmi-container-detail h5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .bmi-container {
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .bmi-container-detail h5 {
+    text-align: center;
+  }
+
+  form.form-bmi-detail {
+    flex-direction: column;
+    align-items: center;
+  }
+}
