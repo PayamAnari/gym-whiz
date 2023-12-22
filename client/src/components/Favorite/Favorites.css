@@ -1,0 +1,29 @@
+.favorite-heart {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.favorite-heart-click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorite-heart svg {
+  width: 25px;
+  height: 25px;
+  color: #f3a829;
+}
+
+.favorite-heart svg:hover {
+  transform: scale(1.2);
+}
