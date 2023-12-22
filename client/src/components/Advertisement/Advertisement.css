@@ -1,0 +1,133 @@
+.advertisement-area {
+  margin-bottom: 1rem;
+  margin-top: 68px;
+}
+
+.ad {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+.ad-img-div {
+  flex: 0 0 65%;
+}
+
+.ad1-div-description {
+  flex: 1;
+  background-color: #2b2d36;
+  border-radius: 30px 0 0 30px;
+}
+
+.ad2-div-description {
+  flex: 1;
+  background-color: #2b2d36;
+  border-radius: 0 30px 30px 0;
+}
+
+.ad1-div-description h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.ad2-div-description h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.ad1-div-description p {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  height: 100%;
+}
+
+.ad2-div-description p {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  height: 100%;
+}
+
+.ad1-img {
+  width: 100%;
+  border-radius: 0 30px 30px 0;
+  height: 100%;
+}
+
+.ad2-img {
+  width: 100%;
+  border-radius: 30px 0 0 30px;
+  height: 100%;
+}
+
+.ad-btn {
+  width: 120px;
+  height: 32px;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #1db619;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.ad-btn:hover {
+  background: #089b03;
+}
+
+@media only screen and (max-width: 680px) {
+  .advertisement-area {
+    margin-top: 1rem;
+  }
+
+  .ad {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-top: 9rem;
+  }
+
+  .ad-img-div {
+    display: none;
+  }
+
+  .ad1-div-description {
+    padding: 0.8rem;
+    border-radius: 0px 0 0 0px;
+    margin-top: -6rem;
+  }
+
+  .ad1-div-description h3 {
+    text-align: center;
+    padding: 0.7rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .ad1-div-description p {
+    text-align: center;
+    width: 80%;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .ad1-img {
+    width: 100%;
+    border-radius: 0 0px 0px 0;
+    height: 100%;
+  }
+}
