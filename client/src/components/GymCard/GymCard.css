@@ -1,0 +1,61 @@
+.gym-image {
+  border-radius: 18px 18px 0 0;
+  height: 200px;
+}
+
+.gym-card {
+  width: 275px;
+  white-space: normal;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  border: 1px solid #2b2d36;
+  border-radius: 20px;
+}
+
+.gym-card-link {
+  display: flex;
+  overflow-wrap: break-word;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+
+.gym-name {
+  font-size: 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.gym-category {
+  font-size: 18px;
+  color: #6a6d74;
+  padding: 5px 0;
+}
+
+.gym-card-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.gym-price {
+  background-color: #1db619;
+  border-radius: 50%;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  margin: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 860px) {
+  .gym-card {
+    width: 220px;
+  }
+}
