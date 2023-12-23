@@ -1,0 +1,37 @@
+.gym-list {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  padding-left: 0;
+  width: 100%;
+}
+
+.gym-card-list {
+  list-style: none;
+  margin: 20px 0 20px 20px;
+}
+
+.gym-card-list:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 860px) {
+  .gym-list {
+    padding: 15px 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gym-list {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .gym-card-list {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
