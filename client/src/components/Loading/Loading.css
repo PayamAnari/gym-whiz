@@ -1,0 +1,18 @@
+.loading-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: #fff;
+}
+
+.loading-container svg {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #f3a829;
+  padding: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 80px 5px #f3a829;
+}
