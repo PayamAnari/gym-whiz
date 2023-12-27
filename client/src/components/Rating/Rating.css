@@ -1,0 +1,14 @@
+.star-rating {
+  display: flex;
+}
+
+.star-rating li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.svg-star {
+  color: gold;
+  width: 1.65em;
+  height: 1.65em;
+}
