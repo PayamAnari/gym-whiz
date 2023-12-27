@@ -1,0 +1,185 @@
+.advantages {
+  margin-top: 30px;
+}
+
+.advantages-info,
+.box-logo {
+  text-align: center;
+}
+.box-logo {
+  padding-top: 20px;
+}
+
+.advantages-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.advantages-description {
+  width: 50%;
+  margin: auto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.advantage-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.advantage-box {
+  border: 3px solid #2b2d36;
+  border-radius: 20px;
+  width: 29%;
+  height: 220px;
+}
+
+#advantage-box2 {
+  background-color: #2b2d36;
+}
+
+#advantage-box2 p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.advantage-box h2 {
+  text-align: center;
+  color: #1db619;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.advantage-box p {
+  text-align: center;
+  font-size: 1rem;
+  width: 70%;
+  margin: auto;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.box-logo {
+  font-size: 3em;
+  margin: auto;
+}
+
+.scroll-buttons {
+  display: none;
+}
+
+@media only screen and (max-width: 880px) {
+  .advantage-box p {
+    font-size: 0.8rem;
+    width: 90%;
+    padding-top: 10px;
+  }
+
+  .advantage-box h2 {
+    font-size: 1.2rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .box-logo {
+    font-size: 2rem;
+  }
+
+  .advantage-box {
+    height: 170px;
+  }
+
+  .advantages-description {
+    width: 80%;
+
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .advantages {
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .advantages-title {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .advantages-description {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+
+  .advantage-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Adjust alignment for left scrolling */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Hide overflow to prevent a horizontal scrollbar */
+    white-space: nowrap; /* Prevent line breaks */
+    scroll-behavior: smooth; /* Add smooth scrolling animation */
+    max-width: 100%;
+  }
+
+  .advantage-box {
+    padding: 1rem 3rem;
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+
+    margin-right: 1rem;
+  }
+
+  .advantage-box_dec {
+    white-space: wrap;
+    margin-top: 1rem;
+  }
+
+  .advantage-box_dec p {
+    font-size: 0.8rem;
+  }
+
+  .scroll-buttons {
+    display: block;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0.5rem;
+    position: absolute;
+    z-index: 1;
+    top: 63%;
+    transform: translateY(-50%);
+  }
+
+  .scroll-buttons button {
+    background-color: #1db619;
+    color: #fff;
+    border: none;
+    border-radius: 90px;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    opacity: 0.5;
+  }
+
+  .scroll-buttons button:hover {
+    opacity: 1;
+  }
+}
