@@ -1,0 +1,39 @@
+.pagination-section {
+  margin-bottom: 100px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-container li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.pagination-container button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 2px solid #1db619;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.arrow-button {
+  font-weight: bold;
+}
+
+.page-number {
+  color: #2b2d36;
+}
+
+.pagination-container .dot-page-number {
+  margin: 0;
+}
+
+.pagination-container .active-page-number {
+  background-color: #1db619;
+  color: #fff;
+}
