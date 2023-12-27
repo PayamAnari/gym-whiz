@@ -1,0 +1,75 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.searchBar-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+input.searchBar-name {
+  padding: 1rem;
+  width: 400px;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  margin-right: 0rem;
+}
+
+.searchBar-container .search-btn {
+  padding: 1rem;
+  height: 48px;
+  margin-inline: 0.5rem;
+  padding-block: 0.5rem;
+  background-color: #1db619;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-result-container {
+  width: 400px;
+  background: rgb(255, 255, 255);
+  max-height: 15rem;
+  overflow-y: auto;
+  margin-block: 0.5rem;
+  border-radius: 0.25rem;
+}
+.search-result-container .search-result-item {
+  cursor: pointer;
+  margin-block: 0.75rem;
+  padding: 0.5rem;
+}
+.search-result-container .search-result-item:hover {
+  background-color: #dddcdc;
+}
+
+@media only screen and (max-width: 800px) {
+  input.searchBar-name {
+    height: 40px;
+    width: 220px;
+  }
+
+  .searchBar-container .search-btn {
+    height: 40px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .search-result-container {
+    width: 300px;
+    background: rgb(255, 255, 255);
+    max-height: 15rem;
+    overflow-y: auto;
+    margin-block: 0.5rem;
+    border-radius: 0.25rem;
+  }
+}
