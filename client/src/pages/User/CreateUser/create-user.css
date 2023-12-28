@@ -1,0 +1,128 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f6f9;
+  position: relative;
+}
+
+.nav-bar {
+  z-index: 100;
+}
+.sign-up {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 90%;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.signup-content {
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.signup-image {
+  width: 50%;
+  height: 70vh;
+}
+.signup-image img {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.signup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.signup-form h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+.signup-form p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.signup-input {
+  width: 350px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 3px solid #169a13;
+  text-align: center;
+}
+.signup-btn {
+  width: 350px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #169a13;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.signup-btn:hover {
+  color: #10590e;
+}
+.terms {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 680px) {
+  .signup-image {
+    display: none;
+  }
+  .signup-form h3 {
+    font-size: 1.1rem;
+  }
+  .signup-form p {
+    font-size: 1rem;
+  }
+  .sign-up {
+    margin-bottom: 2rem;
+    margin-left: 0;
+  }
+  .signup-content {
+    margin-left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+  .signup-input {
+    width: 300px;
+    margin-left: 1.3rem;
+  }
+  .signup-btn {
+    width: 300px;
+    margin-left: 1.3rem;
+  }
+  .terms {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .signup-image {
+    display: none;
+  }
+  .sign-up {
+    margin: 2rem;
+  }
+  .signup-form h3 {
+    text-align: center;
+  }
+  .signup-form p {
+    text-align: center;
+  }
+  .terms {
+    text-align: center;
+  }
+}
