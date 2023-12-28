@@ -25,7 +25,7 @@ const UserList = () => {
     content = <div data-testid={TEST_ID.loadingContainer}>loading...</div>;
   } else if (error != null) {
     content = (
-      <div data-testid={TEST_ID.errorContainer}>Error: {error.toString()}</div>
+      <div data-testid={TEST_ID.errorContainer}> Error: {error.toString()}</div>
     );
   } else {
     content = (
@@ -41,8 +41,8 @@ const UserList = () => {
               );
             })}
         </ul>
-        <Link to="/user/create" data-testid={TEST_ID.createUserButton}>
-          <button>Create new user</button>
+        <Link to="/" data-testid={TEST_ID.gotoHomepageButton}>
+          <button>Homepage</button>
         </Link>
       </>
     );
