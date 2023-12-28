@@ -1,0 +1,19 @@
+.favorite-gyms-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block: 1rem;
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+.favorite-gyms-container .gym-card-link {
+  max-width: 17rem;
+  cursor: pointer;
+}
+
+.favorite-gyms-container .no-favorites-message {
+  min-height: 10rem;
+}
