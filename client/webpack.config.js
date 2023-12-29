@@ -14,7 +14,14 @@ module.exports = {
     rules: [
       {
         test: /\.(png|jp(e*)g|svg|gif)$/,
-        use: ["file-loader"],
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "assets/images/[name].[hash].[ext]",
+            },
+          },
+        ],
       },
       {
         test: /\.css$/i,
@@ -38,11 +45,14 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "public", "index.html"),
+      favicon: "./public/assets/images/favicon.png",
     }),
     // All variables in our .env should be mentioned here
     new webpack.EnvironmentPlugin({
       // Default is '' because on our heroku servers we want to have it default to our current URL
       BASE_SERVER_URL: "",
+      REACT_APP_EMAILJS: "",
+      REACT_APP_RAPID_API_KEY: "",
     }),
   ],
   // To tell the dev server that everything should go back to index.html
