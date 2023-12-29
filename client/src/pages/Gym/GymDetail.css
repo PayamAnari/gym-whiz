@@ -1,0 +1,520 @@
+.gym-detail-page-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.gym-detail-page {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 90vh;
+  margin-top: 2.3rem;
+}
+
+.gym-general-info {
+  display: flex;
+  font-family: "Averta", "Segoe UI", "Helvetica", "Arial", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.gym-img {
+  position: relative;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-left: 40px;
+}
+
+.gym-img img {
+  height: 500px;
+  width: 700px;
+  object-fit: cover;
+}
+
+.gym-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.gym-info hr {
+  margin: 20px 0;
+}
+
+.category-line {
+  font-size: 24px;
+  color: #696c74;
+}
+
+.gym-info h1 {
+  margin: 10px 0;
+  font-size: 42px;
+}
+
+.address-line {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #696c74;
+}
+
+.phone-section {
+  font-size: 20px;
+  color: #696c74;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.phone-section svg {
+  width: 24px;
+  height: 24px;
+}
+
+.phone-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-number {
+  margin-left: 16px;
+}
+
+.gym-detail-price {
+  background-color: #1db619;
+  border-radius: 50%;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  margin: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.social-media-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+  margin-top: 16px;
+  color: #696c74;
+}
+
+.share {
+  transform: rotate(90deg);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #696c74;
+}
+
+.social-icons svg {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.opening-hours-container {
+  margin-top: 50px;
+}
+
+.gym-detail-sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gym-detail-sub-header h2 {
+  margin: 0 20px;
+}
+
+.gym-detail-sub-header hr {
+  flex: 1;
+}
+
+.opening-times {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.centered-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.week-list-item {
+  list-style: none;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.week-list-item span {
+  font-weight: bold;
+  color: #696c74;
+  font-size: 18px;
+}
+
+.opening-times-img-container img {
+  width: 300px;
+}
+
+.map-location-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.map-location-icon-container img {
+  width: 300px;
+}
+
+.map-iframe {
+  flex: 2;
+}
+
+.map-iframe iframe {
+  height: 300px;
+  border: none;
+  width: 800px;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.reviews-list {
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 20px 30px;
+  background-color: #fff;
+}
+
+.reviews-list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.reviews-list::-webkit-scrollbar-thumb {
+  background: #f3a829;
+  border-radius: 20px;
+}
+
+.reviews-list::-webkit-scrollbar-track {
+  background: #eed5a8;
+}
+
+.review {
+  margin-bottom: 30px;
+  border: 2px solid #f3a829;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 500px;
+  background-color: #fff;
+}
+
+.reviewer-container {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-comment {
+  margin: 3px 0;
+}
+
+.review-span {
+  margin-left: 5px;
+}
+
+.review-writing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-form textarea {
+  width: 500px;
+  height: 250px;
+  resize: none;
+  padding: 20px;
+  outline-color: #f3a829;
+  border-color: #1db619;
+  font-size: 16px;
+}
+
+.review-form label {
+  visibility: hidden;
+}
+
+.review-submit-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.review-rating-section select {
+  padding: 10px;
+  border-color: #1db619;
+  outline-color: #f3a829;
+  cursor: pointer;
+}
+
+.review-submit-button {
+  margin-left: 10px;
+  padding: 10px 50px;
+  border: none;
+  background-color: #1db619;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.review-profile-photo {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .opening-times-img-container img {
+    width: 200px;
+  }
+
+  .map-location-icon-container img {
+    width: 200px;
+  }
+
+  .map-iframe iframe {
+    width: 600px;
+  }
+
+  .reviews-list {
+    margin-right: 20px;
+  }
+
+  .review-writing-section {
+    margin-left: 20px;
+  }
+
+  .review-form textarea {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gym-img img {
+    height: 400px;
+    width: 550px;
+  }
+
+  .gym-info h1 {
+    font-size: 36px;
+  }
+
+  .review {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .gym-general-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-container {
+    margin-left: 0;
+    margin-top: 40px;
+    width: 550px;
+  }
+
+  .opening-times-img-container,
+  .map-location-icon-container {
+    display: none;
+  }
+
+  .reviews-container {
+    flex-direction: column;
+    width: 550px;
+    margin: 50px auto;
+  }
+
+  .reviews-list {
+    min-height: 40vh;
+  }
+
+  .review {
+    width: 450px;
+  }
+
+  .review-writing-section {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gym-img img {
+    height: 250px;
+    width: 400px;
+  }
+
+  .info-container {
+    width: 400px;
+  }
+
+  .gym-info h1 {
+    font-size: 30px;
+  }
+
+  .map-iframe iframe {
+    width: 400px;
+  }
+
+  .reviews-container {
+    width: 400px;
+  }
+
+  .review {
+    width: 300px;
+  }
+
+  .review-submit-button {
+    padding: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gym-img img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .info-container {
+    width: 300px;
+  }
+
+  .gym-info h1 {
+    font-size: 26px;
+  }
+
+  .map-location-section {
+    margin-top: 30px;
+  }
+
+  .map-iframe iframe {
+    width: 300px;
+  }
+
+  .reviews-container {
+    width: 300px;
+    margin-top: 30px;
+  }
+
+  .reviews-list {
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .review {
+    width: 280px;
+  }
+
+  .review-form textarea {
+    width: 300px;
+  }
+
+  .review-submit-button {
+    padding: 10px 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gym-img img {
+    height: 150px;
+    width: 250px;
+  }
+
+  .info-container {
+    width: 250px;
+    flex-direction: column;
+  }
+
+  .social-media-icon {
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .share {
+    transform: none;
+  }
+
+  .social-icons {
+    flex-direction: row;
+  }
+
+  .social-icons svg {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  .gym-info h1 {
+    font-size: 22px;
+  }
+
+  .map-iframe iframe {
+    width: 250px;
+  }
+
+  .reviews-container {
+    width: 250px;
+  }
+
+  .review {
+    width: 225px;
+  }
+
+  .review-writing-section {
+    width: 250px;
+  }
+
+  .review-form textarea {
+    width: 250px;
+  }
+
+  .rating-label {
+    display: none;
+  }
+}
