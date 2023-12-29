@@ -1,0 +1,64 @@
+.gyms-page {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  min-height: 90vh;
+  margin-top: 1.6rem;
+}
+
+.gyms-page-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.gyms-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.filter-toggle-menu {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .gyms-page {
+    flex-direction: column;
+  }
+
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gyms-container {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .filter-toggle-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filter-toggle-menu hr {
+    opacity: 0.5;
+  }
+
+  .filter-icon {
+    cursor: pointer;
+  }
+
+  .filter-icon svg {
+    width: 30px;
+    height: 30px;
+    color: #1db619;
+  }
+
+  .closed-filter {
+    display: none;
+  }
+}
