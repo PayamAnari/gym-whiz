@@ -243,7 +243,6 @@ Discover a treasure trove of wellness insights and fitness guidance with GymWhiz
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
   
 --- 
 
@@ -446,5 +445,11 @@ Create a pull request to the original repository, explaining your changes and th
 ---
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+### Built with ❤️ by Group B Class44
+
+Thank you for exploring the Gym Fitness app! If you have any questions, feedback, or just want to say hi, feel free to [reach out](mailto:anari.p62@gmail.com). Happy fitness journey!
 
 ---
