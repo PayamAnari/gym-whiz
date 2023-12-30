@@ -225,3 +225,13 @@ Elevate the user experience on your GymWhiz application with the sophisticated a
 ## Tips 
 
 Discover a treasure trove of wellness insights and fitness guidance with GymWhiz's Tips page. Immerse yourself in a visually stunning and informative journey, supported by captivating images that set the tone for a healthier lifestyle. The Tips page is thoughtfully designed to offer a diverse range of articles, each crafted to provide valuable information on weight loss, effective workouts, nutritional guidance, and more. Engage with enlightening content such as "Understanding the Role of Nutrition in Your Weight Loss Journey" and "Effective Workouts for Burning Fat and Building Muscle," empowering users to make informed choices on their fitness journey. Explore topics like choosing the perfect gym buddy, supporting health in a hybrid workforce, and practical advice on what to take to the gym. GymWhiz's Tips page is a holistic resource, combining practical tips, expert advice, and visually appealing content to inspire and guide users toward their health and fitness goals.
+
+ <p align="center">
+  <img width="400" src="https://live.staticflickr.com/65535/53430779258_1883b8b9a5_z.jpg" alt="Image 1">
+  
+  <img width="200" src="https://live.staticflickr.com/65535/53431031845_541e944425_z.jpg" alt="Image 2">
+  
+  <img width="150" src="https://live.staticflickr.com/65535/53430926344_2207cea78b_z.jpg" alt="Image 3">
+</p>
+
+---
