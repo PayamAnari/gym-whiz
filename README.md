@@ -107,3 +107,14 @@ The GymWhiz Profile Page is a personalized and feature-rich hub where users can 
 - **Editable Profile Fields:** Provide user-friendly input fields for updating personal information, including first name, last name, age, weight, and height.
 - **Password Update:** Enable users to securely update their account password by entering a new password and confirming the change.
 Interactive Notifications: Implement real-time error handling and success notifications using toast messages, ensuring a transparent and user-friendly experience.
+
+<p align="center">
+  <img width="400" src="https://live.staticflickr.com/65535/53430878699_204084dc71_c.jpg" alt="Image 1">
+  
+  <img width="200" src="https://live.staticflickr.com/65535/53402307027_2e72d107fc_z.jpg" alt="Image 2">
+  
+  <img width="150" src="https://live.staticflickr.com/65535/53402312047_61fb15797e_w.jpg" alt="Image 3">
+</p>
+
+
+---
