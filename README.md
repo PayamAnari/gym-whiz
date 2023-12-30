@@ -152,3 +152,18 @@ Users can submit reviews effortlessly through a user-friendly form. The submissi
 
 
 ---
+
+## GymWhiz BMI Calculator
+
+The GymWhiz BMI Calculator is a user-friendly and efficient tool designed to help individuals assess their Body Mass Index (BMI) with ease. BMI is a widely used indicator of body fatness and provides valuable insights into one's weight status. GymWhiz's BMI Calculator simplifies the process, allowing users to make informed decisions about their health and fitness goals.
+
+### Key Features
+
+***Effortless Calculation***
+With GymWhiz's BMI Calculator, users can effortlessly input their weight and height, enabling the tool to perform accurate BMI calculations. The user-friendly interface ensures a seamless experience, making it accessible for individuals at any fitness level.
+
+***Real-Time Results***
+Upon calculation, the BMI Calculator instantly provides users with their Body Mass Index, rounded to one decimal place. This real-time feedback allows users to gauge their current weight status promptly.
+
+***Weight Category Determination***
+In addition to the BMI result, GymWhiz's BMI Calculator categorizes users into distinct weight categories. These categories, including "Underweight," "Normal Weight," "Overweight," and "Obese," offer a clear understanding of how an individual's BMI aligns with established health standards.
