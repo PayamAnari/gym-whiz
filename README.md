@@ -173,7 +173,7 @@ In addition to the BMI result, GymWhiz's BMI Calculator categorizes users into d
   
   <img width="200" src="https://live.staticflickr.com/65535/53430890334_6d6c5f968f_w.jpg" alt="Image 2">
   
-  <img width="150" src="https://live.staticflickr.com/65535/53402312047_61fb15797e_w.jpg" alt="Image 3">
+  <img width="150" src="https://live.staticflickr.com/65535/53429646582_c8d7c0f039_m.jpg" alt="Image 3">
 </p>
 
 
