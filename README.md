@@ -240,7 +240,6 @@ Discover a treasure trove of wellness insights and fitness guidance with GymWhiz
 - [Key Features](#key-features)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
@@ -408,3 +407,19 @@ client/
 2. Navigate to the project folder: `cd gym-whiz`
 3. Install dependencies: `npm install`
 4. Start the Vite development server: `npm run dev`
+
+---
+## Technologies Used
+- **React** (frontend)
+- **MongoDB** (database)
+- **Toast notifications** (notifications)
+- **Css** (styling)
+- **Email.js** (email services)
+  
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,js,css,react,mongodb,nodejs,express" />
+  </a>
+</p>
+
+---
