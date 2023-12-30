@@ -13,6 +13,16 @@
 </h3>
 
 ---
+
+<p align="center">
+  <img 
+    width="1200"
+    alt="home"
+    src="https://live.staticflickr.com/65535/53429594537_17f795b17b_c.jpg"/>
+</p>
+
+---
+
 ## Live Demo
 [Live Demo Link](https://c44-group-b-214f45ea3c28.herokuapp.com/gyms)
 
