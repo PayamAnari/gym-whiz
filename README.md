@@ -68,7 +68,7 @@ The Filtering component complements the GymPage by providing an intuitive user i
   
   <img width="200" src="https://live.staticflickr.com/65535/53430543461_5d48a5bcc2_n.jpg" alt="Image 2">
   
-  <img width="150" src="https://live.staticflickr.com/65535/53402312047_61fb15797e_w.jpg" alt="Image 3">
+  <img width="150" src="https://live.staticflickr.com/65535/53430972175_569704179a_n.jpg" alt="Image 3">
 </p>
 
 
