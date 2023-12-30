@@ -84,3 +84,14 @@ The GymWhiz Search Bar component is a versatile and user-friendly feature design
 - **Navigation Integration:** Clicking on a search result seamlessly navigates users to the detailed page of the selected gym, enhancing the overall user journey.
 - **Automatic Clearing:** The search bar intelligently clears its input and results when users click outside the search container, ensuring a tidy and distraction-free interface.
 - **Error Handling:** In case of errors, such as gyms not being found, users receive clear error messages through toast notifications for a transparent user experience.
+
+<p align="center">
+  <img width="400" src="https://live.staticflickr.com/65535/53430550066_92458e57d1_c.jpg" alt="Image 1">
+  
+  <img width="200" src="https://live.staticflickr.com/65535/53402307027_2e72d107fc_z.jpg" alt="Image 2">
+  
+  <img width="150" src="https://live.staticflickr.com/65535/53402312047_61fb15797e_w.jpg" alt="Image 3">
+</p>
+
+
+--- 
