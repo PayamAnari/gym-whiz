@@ -54,7 +54,7 @@ The GymPage component is a React-based feature that dynamically renders a list o
 - **Loading State:** Provide visual feedback to users while gyms are being loaded.
 
  
-## Filtering Component
+## Filtering
 
 The Filtering component complements the GymPage by providing an intuitive user interface for applying filters. Key features of the Filtering component include:
 
@@ -96,7 +96,7 @@ The GymWhiz Search Bar component is a versatile and user-friendly feature design
 
 --- 
 
-## GymWhiz
+## Profile Page
 
 The GymWhiz Profile Page is a personalized and feature-rich hub where users can manage their account details, view and update personal information, and customize their profile photo. This page serves as a central destination for users to interact with their account settings, enhancing their overall experience within the GymWhiz fitness application.
 
@@ -119,11 +119,11 @@ Interactive Notifications: Implement real-time error handling and success notifi
 
 ---
 
-## GymWhiz Rating and Review 
+## Rating and Review 
 
 The GymWhiz Rating and Review System provide users with a dynamic platform to share and discover insights about fitness facilities. Users can express their opinions through personalized reviews, accompanied by a visually intuitive rating system. This system aims to foster community engagement, empower users in their fitness journey decision-making, and contribute to a vibrant fitness ecosystem.
 
-### Rating Component
+### Rating
 
 Visual Representation
 The Rating component offers an elegant visual representation of user ratings using star icons. Each star reflects a portion of a rating, allowing users to express nuanced evaluations of gym experiences. The component utilizes icons such as outlined stars, filled stars, and half stars to convey varying levels of satisfaction.
@@ -153,7 +153,7 @@ Users can submit reviews effortlessly through a user-friendly form. The submissi
 
 ---
 
-## GymWhiz BMI Calculator
+## BMI Calculator
 
 The GymWhiz BMI Calculator is a user-friendly and efficient tool designed to help individuals assess their Body Mass Index (BMI) with ease. BMI is a widely used indicator of body fatness and provides valuable insights into one's weight status. GymWhiz's BMI Calculator simplifies the process, allowing users to make informed decisions about their health and fitness goals.
 
