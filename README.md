@@ -73,3 +73,14 @@ The Filtering component complements the GymPage by providing an intuitive user i
 
 
 ---
+## SearchBar
+
+The GymWhiz Search Bar component is a versatile and user-friendly feature designed to empower users in discovering gyms effortlessly. With its intuitive design and real-time filtering capabilities, this component provides a seamless search experience within the GymWhiz app.
+
+### Key Features
+
+- **Dynamic Search:** As users type, the search bar dynamically filters gyms based on the entered query, including gym names, categories, and cities.
+- **Interactive Results:** The search results are presented in an interactive dropdown, allowing users to easily identify and select gyms of interest.
+- **Navigation Integration:** Clicking on a search result seamlessly navigates users to the detailed page of the selected gym, enhancing the overall user journey.
+- **Automatic Clearing:** The search bar intelligently clears its input and results when users click outside the search container, ensuring a tidy and distraction-free interface.
+- **Error Handling:** In case of errors, such as gyms not being found, users receive clear error messages through toast notifications for a transparent user experience.
