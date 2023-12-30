@@ -62,3 +62,14 @@ The Filtering component complements the GymPage by providing an intuitive user i
 - **Category Filter:** Allow users to narrow down gyms by selecting specific fitness categories.
 - **Rating Filter:** Implement a rating filter for users to find gyms based on their ratings.
 - **Reset Filters:** Provide a convenient option to reset all applied filters.
+
+<p align="center">
+  <img width="400" src="https://live.staticflickr.com/65535/53430969805_c430e8de95_c.jpg" alt="Image 1">
+  
+  <img width="200" src="https://live.staticflickr.com/65535/53402307027_2e72d107fc_z.jpg" alt="Image 2">
+  
+  <img width="150" src="https://live.staticflickr.com/65535/53402312047_61fb15797e_w.jpg" alt="Image 3">
+</p>
+
+
+---
