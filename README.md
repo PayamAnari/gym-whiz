@@ -147,7 +147,7 @@ Users can submit reviews effortlessly through a user-friendly form. The submissi
   
   <img width="200" src="https://live.staticflickr.com/65535/53430886069_d336541f20_m.jpg" alt="Image 2">
   
-  <img width="150" src="https://live.staticflickr.com/65535/53402312047_61fb15797e_w.jpg" alt="Image 3">
+  <img width="150" src="https://live.staticflickr.com/65535/53430887129_e1d9b3fc83_z.jpg" alt="Image 3">
 </p>
 
 
