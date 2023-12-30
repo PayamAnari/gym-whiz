@@ -207,3 +207,7 @@ Explore fitness spaces in intricate detail with GymWhiz's GymDetail Page. This f
 </p>
 
 ---
+
+## Footer
+
+Elevate the user experience on your GymWhiz application with the sophisticated and feature-rich Footer component. Seamlessly combining style and functionality, GymWhiz's Footer provides users with easy access to essential links, including Home, Gyms, Tips, and the captivating Our Story. Stay connected through prominent social media icons, and make a statement with the GymWhiz logo. The Footer doesn't just stop at navigation—it also offers users the convenience of reaching out with a dedicated contact form, ensuring efficient communication. Keep users informed with a neatly organized address section, complete with icons for location, mobile contact, and email. The Footer is not just a design element; it's a user-friendly interface that enhances the overall accessibility and aesthetic appeal of GymWhiz.
