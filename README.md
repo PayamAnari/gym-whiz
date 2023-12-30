@@ -239,9 +239,7 @@ Discover a treasure trove of wellness insights and fitness guidance with GymWhiz
 ## Table of Contents
 - [Key Features](#key-features)
 - [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
@@ -403,3 +401,10 @@ client/
 │
 
 ```
+---
+
+### Installation
+1. Clone the repository: `git clone https://github.com/PayamAnari/gym-whiz`
+2. Navigate to the project folder: `cd gym-whiz`
+3. Install dependencies: `npm install`
+4. Start the Vite development server: `npm run dev`
