@@ -249,3 +249,15 @@ Discover a treasure trove of wellness insights and fitness guidance with GymWhiz
 - [Contact](#contact)
   
 --- 
+
+Key Features
+
+- ***Gym Discovery:*** Explore a variety of gyms by filtering based on name, location, rating, and category. GymWhiz makes it easy for you to find the perfect fitness space tailored to your preferences.
+- ***User Profiles:*** Sign up, create, and edit your user profile with ease. Showcase your fitness journey, set a profile photo, and keep track of your favorite gyms.
+- ***Favorite Gyms:*** Save and manage your favorite gyms effortlessly. GymWhiz allows you to curate a list of go-to fitness spots for quick access.
+- ***Gym Reviews and Ratings:*** Share your experiences by providing reviews and ratings for gyms. GymWhiz calculates an average rating, empowering users to make informed decisions.
+- ***BMI Calculator:*** Stay informed about your fitness progress with the BMI calculator. Track changes and set goals for a healthier you.
+- ***Newsletter Subscription:*** Stay connected with the latest fitness trends and GymWhiz updates by subscribing to our newsletter. Receive valuable insights and tips directly to your inbox.
+- ***Interactive Messaging:*** Engage with GymWhiz through the footer section to send and receive messages. Whether you have inquiries or feedback, GymWhiz ensures a responsive and user-friendly communication channel.
+- ***Workout Tips and Weight Loss Advice:*** Access a treasure trove of workout tips and weight loss advice. GymWhiz is your virtual fitness guide, offering valuable content to enhance your fitness journey.
+- ***Responsive Design:*** GymWhiz is optimized for both computers and mobile phones, providing a seamless experience across various devices.
