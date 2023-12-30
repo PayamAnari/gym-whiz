@@ -215,7 +215,7 @@ Elevate the user experience on your GymWhiz application with the sophisticated a
  <p align="center">
   <img width="400" src="https://live.staticflickr.com/65535/53430924489_2d0e0fceb2_c.jpg" alt="Image 1">
   
-  <img width="200" src="https://live.staticflickr.com/65535/53430747488_e681394bfe_n.jpg" alt="Image 2">
+  <img width="200" src="https://live.staticflickr.com/65535/53431031845_541e944425_z.jpg" alt="Image 2">
   
   <img width="150" src="https://live.staticflickr.com/65535/53431023415_531a9b41af_n.jpg" alt="Image 3">
 </p>
