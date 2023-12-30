@@ -95,3 +95,15 @@ The GymWhiz Search Bar component is a versatile and user-friendly feature design
 
 
 --- 
+
+## GymWhiz
+
+The GymWhiz Profile Page is a personalized and feature-rich hub where users can manage their account details, view and update personal information, and customize their profile photo. This page serves as a central destination for users to interact with their account settings, enhancing their overall experience within the GymWhiz fitness application.
+
+### Key Features
+
+- **User Information:** Display essential user details, such as name, email, and account creation date, providing a quick overview of the user's profile.
+- **Profile Photo Management:** Allow users to upload, change, or delete their profile photo, enhancing personalization and identity within the GymWhiz community.
+- **Editable Profile Fields:** Provide user-friendly input fields for updating personal information, including first name, last name, age, weight, and height.
+- **Password Update:** Enable users to securely update their account password by entering a new password and confirming the change.
+Interactive Notifications: Implement real-time error handling and success notifications using toast messages, ensuring a transparent and user-friendly experience.
