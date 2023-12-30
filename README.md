@@ -261,3 +261,145 @@ Key Features
 - ***Interactive Messaging:*** Engage with GymWhiz through the footer section to send and receive messages. Whether you have inquiries or feedback, GymWhiz ensures a responsive and user-friendly communication channel.
 - ***Workout Tips and Weight Loss Advice:*** Access a treasure trove of workout tips and weight loss advice. GymWhiz is your virtual fitness guide, offering valuable content to enhance your fitness journey.
 - ***Responsive Design:*** GymWhiz is optimized for both computers and mobile phones, providing a seamless experience across various devices.
+
+---
+
+## Project Structure
+
+The project follows a structured directory hierarchy, with the main components organized as follows:
+
+```
+client/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Advertisement/
+│   │   │   ├── Advertisement.css
+│   │   │   └── Advertisement.jsx
+│   │   ├── Bmi/
+│   │   │   ├── Bmi.css
+│   │   │   └── Bmi.jsx
+│   │   ├── Favorite/
+│   │   │   ├── Favorite.css
+│   │   │   └── Favorite.jsx
+│   │   ├── Footer/
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.jsx
+│   │   ├── GymCard/
+│   │   │   ├── GymCard.css
+│   │   │   └── GymCard.jsx
+│   │   ├── GymList/
+│   │   │   ├── GymList.css
+│   │   │   └── GymList.jsx
+│   │   ├── GymPageOverview/
+│   │   │   ├── FilterSection.css
+│   │   │   └── FilterSection.jsx
+│   │   │   ├── GymNotFound.css
+│   │   │   └── GymNotFound.jsx
+│   │   ├── Header/
+│   │   │   ├── Header.css
+│   │   │   └── Header.jsx
+│   │   ├── Loading/
+│   │   │   ├── Loading.css
+│   │   │   └── Loading.jsx
+│   │   ├── Login/
+│   │   │   ├── Login.css
+│   │   │   └── Login.jsx
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.css
+│   │   │   └── Navbar.jsx
+│   │   ├── OurStory/
+│   │   │   ├── OurStory.css
+│   │   │   └── OurStory.jsx
+│   │   ├── Pagination/
+│   │   │   ├── Pagination.css
+│   │   │   └── Pagination.jsx
+│   │   ├── Rating/
+│   │   │   ├── Rating.css
+│   │   │   └── Rating.jsx
+│   │   ├── SearchBar/
+│   │   │   ├── SearchBar.css
+│   │   │   └── SearchBar.jsx
+│   │   ├── Subscribe/
+│   │   │   ├── Subscribe.css
+│   │   │   └── Subscribe.jsx
+│   │   ├── WhyGymWhiz/
+│   │   │   ├── WhyGymWhiz.css
+│   │   │   └── WhyGymWhiz.jsx
+│   ├── context/
+│   │   ├── AuthContext.js
+│   │   └── GymContext.js
+│   ├── hooks/
+│   │   ├── fetchBmi.js
+│   │   └── fetchEmailjs.js
+│   │   └── useFetch.js
+│   ├── Pages/
+│   │   ├── FavoriteGyms/
+│   │   │   ├── FavoriteGyms.css
+│   │   │   └── FavoriteGyms.jsx
+│   │   ├── Gym/
+│   │   │   ├── GymDetails.css
+│   │   │   └── GymDetails.jsx
+│   │   ├── GymPage/
+│   │   │   ├── GymPage.css
+│   │   │   └── GymPage.jsx
+│   │   ├── Home/
+│   │   │   ├── Home.css
+│   │   │   └── Home.jsx
+│   │   ├── Profile/
+│   │   │   ├── Profile.css
+│   │   │   └── Profile.jsx
+│   │   │   └── UserProfile.jsx
+│   │   ├── Tips/
+│   │   │   ├── Tips.css
+│   │   │   └── Tips.jsx
+│   │   ├── User/
+│   │   │   ├── CreateUser/
+│   │   │   │   ├── CreateUser.css
+│   │   │   │   └── CreateUser.jsx
+│   │   │   ├── UserList.jsx
+│   │   ├── Utils/
+│   │   │   ├── inputsValidation.js
+│   ├── App.jsx
+│   ├── AppWrapper.js
+│   ├── index.js
+│   ├── .env
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── server/
+│   │   ├── src/
+│   │   │   ├── controllers/
+│   │   │   │   ├── gym.js
+│   │   │   │   ├── review.js
+│   │   │   │   └── user.js
+│   │   ├── db/
+│   │   │   ├── connectDB.js
+│   │   │   ├── models/
+│   │   │   │   ├── Gym.js
+│   │   │   │   ├── Review.js
+│   │   │   │   └── User.js
+│   │   │   ├── routes/
+│   │   │   │   ├── gym.js
+│   │   │   │   ├── review.js
+│   │   │   │   └── user.js
+│   │   │   ├── utils/
+│   │   │   │   ├── validateAllowedFields.js
+│   │   │   │   └──validationErrorMessage.js
+│   │   │   ├── app.js
+│   │   │   ├── index.js
+│   │   ├── .env
+│   │   ├── .eslintrc.cjs
+│   │   └── package-lock.json
+│   │   ├── package.json
+│   │   ├── README.md
+│   └── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│
+
+```
