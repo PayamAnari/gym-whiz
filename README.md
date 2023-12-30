@@ -190,9 +190,8 @@ Embark on your fitness journey with GymWhiz by creating a personalized account. 
   <p align="center">
   <img width="400" src="https://live.staticflickr.com/65535/53431007685_dba810ef57.jpg" alt="Image 1">
   
-  <img width="200" src="https://live.staticflickr.com/65535/53402922602_ed84e805b3_n.jpg" alt="Image 2">
+  <img width="400" src="https://live.staticflickr.com/65535/53430735693_720e07c52f_c.jpg" alt="Image 2">
   
-  <img width="150" src="https://live.staticflickr.com/65535/53402923647_2eb49511ca_w.jpg" alt="Image 3">
-</p>
+
 
 ---
