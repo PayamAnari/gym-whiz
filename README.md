@@ -14,6 +14,7 @@
 </h3>
 
 ---
+
 <h3 align="center">
   <strong>
       :weight_lifting_woman:  GymWhiz :weight_lifting_woman:
