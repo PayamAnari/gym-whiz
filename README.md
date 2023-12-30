@@ -113,7 +113,7 @@ Interactive Notifications: Implement real-time error handling and success notifi
   
   <img width="200" src="https://live.staticflickr.com/65535/53430559001_12b31350d1_n.jpg" alt="Image 2">
   
-  <img width="150" src="https://live.staticflickr.com/65535/53402312047_61fb15797e_w.jpg" alt="Image 3">
+  <img width="150" src="https://live.staticflickr.com/65535/53430881139_55d1c781e3_z.jpg" alt="Image 3">
 </p>
 
 
