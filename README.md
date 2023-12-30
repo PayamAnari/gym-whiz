@@ -229,7 +229,7 @@ Discover a treasure trove of wellness insights and fitness guidance with GymWhiz
  <p align="center">
   <img width="400" src="https://live.staticflickr.com/65535/53430779258_1883b8b9a5_z.jpg" alt="Image 1">
   
-  <img width="200" src="https://live.staticflickr.com/65535/53431031845_541e944425_z.jpg" alt="Image 2">
+  <img width="200" src="https://live.staticflickr.com/65535/53429702742_2687ebc41f_n.jpg" alt="Image 2">
   
   <img width="150" src="https://live.staticflickr.com/65535/53430926344_2207cea78b_z.jpg" alt="Image 3">
 </p>
