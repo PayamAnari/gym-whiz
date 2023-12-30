@@ -178,3 +178,11 @@ In addition to the BMI result, GymWhiz's BMI Calculator categorizes users into d
 
 
 ---
+
+## Login
+
+Experience a smooth and secure login process with GymWhiz. Our login feature ensures effortless access to your fitness journey. Simply enter your email and password, and GymWhiz will handle the rest. Receive personalized greetings upon successful login and stay connected to your fitness preferences.
+
+## Sign Up
+
+Embark on your fitness journey with GymWhiz by creating a personalized account. Our signup feature offers an intuitive registration process, allowing you to set up your account with your first and last name, email, and a secure password. Seamlessly transition from signup to login, explore GymWhiz's extensive features, connect with the fitness community, and access valuable resources to enhance your fitness lifestyle.
