@@ -192,6 +192,8 @@ Embark on your fitness journey with GymWhiz by creating a personalized account. 
   
   <img width="400" src="https://live.staticflickr.com/65535/53430735693_720e07c52f_c.jpg" alt="Image 2">
   
-
-
 ---
+
+## GymDetail Page
+
+Explore fitness spaces in intricate detail with GymWhiz's GymDetail Page. This feature-rich page offers a comprehensive overview of your selected gym, providing essential information such as location, contact details, pricing, and opening hours. Immerse yourself in the gym's ambiance with vivid images and stay informed about user reviews to make confident decisions. GymWhiz goes beyond static details by integrating interactive elements, allowing users to favorite gyms, share their experiences through reviews, and access real-time information. The GymDetail Page serves as a dynamic hub for fitness enthusiasts, offering an immersive and user-friendly experience to enhance your fitness journey.
