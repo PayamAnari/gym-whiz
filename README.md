@@ -169,7 +169,7 @@ Upon calculation, the BMI Calculator instantly provides users with their Body Ma
 In addition to the BMI result, GymWhiz's BMI Calculator categorizes users into distinct weight categories. These categories, including "Underweight," "Normal Weight," "Overweight," and "Obese," offer a clear understanding of how an individual's BMI aligns with established health standards.
 
 <p align="center">
-  <img width="400" src="https://live.staticflickr.com/65535/53403695580_dc93e4102c_c.jpg" alt="Image 1">
+  <img width="400" src="https://live.staticflickr.com/65535/53430891004_80cd3b8457_c.jpg" alt="Image 1">
   
   <img width="200" src="https://live.staticflickr.com/65535/53430890334_6d6c5f968f_w.jpg" alt="Image 2">
   
