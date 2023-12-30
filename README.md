@@ -411,6 +411,8 @@ client/
 ## Technologies Used
 - **React** (frontend)
 - **MongoDB** (database)
+- **Nodejs** (Backend JavaScript runtime)
+- **Express** (Web application framework for Node.js)
 - **Toast notifications** (notifications)
 - **Css** (styling)
 - **Email.js** (email services)
