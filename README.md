@@ -88,9 +88,9 @@ The GymWhiz Search Bar component is a versatile and user-friendly feature design
 <p align="center">
   <img width="400" src="https://live.staticflickr.com/65535/53430550066_92458e57d1_c.jpg" alt="Image 1">
   
-  <img width="200" src="https://live.staticflickr.com/65535/53430873189_243046d450_w.jpg" alt="Image 2">
+  <img width="200" src="https://live.staticflickr.com/65535/53430981755_70ed65582d.jpg" alt="Image 2">
   
-  <img width="150" src="https://live.staticflickr.com/65535/53402312047_61fb15797e_w.jpg" alt="Image 3">
+  <img width="150" src="https://live.staticflickr.com/65535/53430873189_243046d450_w.jpg" alt="Image 3">
 </p>
 
 
