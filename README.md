@@ -201,7 +201,7 @@ Explore fitness spaces in intricate detail with GymWhiz's GymDetail Page. This f
   <p align="center">
   <img width="400" src="https://live.staticflickr.com/65535/53430592756_8961b606e0_c.jpg" alt="Image 1">
   
-  <img width="200" src="https://live.staticflickr.com/65535/53402922602_ed84e805b3_n.jpg" alt="Image 2">
+  <img width="200" src="https://live.staticflickr.com/65535/53430747488_e681394bfe_n.jpg" alt="Image 2">
   
   <img width="150" src="https://live.staticflickr.com/65535/53402923647_2eb49511ca_w.jpg" alt="Image 3">
 </p>
