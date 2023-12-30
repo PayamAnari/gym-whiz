@@ -235,3 +235,17 @@ Discover a treasure trove of wellness insights and fitness guidance with GymWhiz
 </p>
 
 ---
+
+## Table of Contents
+- [Key Features](#key-features)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+  
+--- 
