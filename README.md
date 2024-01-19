@@ -246,7 +246,7 @@ Discover a treasure trove of wellness insights and fitness guidance with GymWhiz
   
 --- 
 
-Key Features
+## Key Features
 
 - ***Gym Discovery:*** Explore a variety of gyms by filtering based on name, location, rating, and category. GymWhiz makes it easy for you to find the perfect fitness space tailored to your preferences.
 - ***User Profiles:*** Sign up, create, and edit your user profile with ease. Showcase your fitness journey, set a profile photo, and keep track of your favorite gyms.
